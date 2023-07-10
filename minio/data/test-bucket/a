@@ -1,0 +1,297 @@
+  test1:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test2:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test3:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test4:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test5:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test6:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test7:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test8:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test9:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test10:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test11:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test12:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test13:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test14:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test15:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test16:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test17:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test18:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test19:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test20:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test21:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test22:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test23:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test24:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test25:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test26:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test27:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test28:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test29:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test30:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test31:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test32:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test33:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test34:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test35:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test36:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test37:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test38:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test39:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test40:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test41:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test42:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test43:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test44:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test45:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test46:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test47:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test48:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test49:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test50:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test51:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test52:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test53:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test54:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test55:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test56:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test57:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test58:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test59:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test60:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test61:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test62:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test63:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test64:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test65:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test66:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test67:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test68:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test69:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test70:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test71:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test72:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test73:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test74:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test75:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test76:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test77:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test78:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test79:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test80:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test81:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test82:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test83:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test84:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test85:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test86:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test87:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test88:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test89:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test90:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test91:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test92:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test93:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test94:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test95:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test96:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test97:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test98:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
+  test99:
+    runOnDemand: ffmpeg -re -stream_loop -1 -i test.mp4 -c copy -f rtsp rtsp://localhost:$RTSP_PORT/$RTSP_PATH
+    runOnDemandRestart: yes
