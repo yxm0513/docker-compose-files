@@ -12,10 +12,13 @@ The main objective of this project is to create a simple Python service example 
 You will need Docker installed to follow the next steps and build an run the image locally you just need to use the following command:
 
 ```bash
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 ### How it Works
+
+
+bash start.sh
 
 At first, make some reqeust several times using the following link `http://localhost:5000`, then you be able to see changes in the metrics `http://localhost:5000/metrics`.
 
