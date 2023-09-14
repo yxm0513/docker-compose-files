@@ -9,7 +9,8 @@ services:
       - "9200:9200"
       - "9300:9300"
     environment:
-      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      #ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      ES_JAVA_OPTS: "-Xmx1g -Xms1g"
     #command: ["bash", "-c", "echo 'discovery.type: single-node'>>/usr/share/elasticsearch/config/elasticsearch.yml; /usr/local/bin/docker-entrypoint.sh eswrapper"]
     command: ["bash", "-c", "/usr/local/bin/docker-entrypoint.sh eswrapper"]
     networks:
