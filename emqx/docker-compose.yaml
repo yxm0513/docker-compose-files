@@ -9,6 +9,9 @@ services:
       - "8883:8883"
       - "8084:8084"
       - "18083:18083"
+      #- "1883:1883"    # MQTT
+      #- "8083:8083"    # MQTT over WebSocket
+      #- "18083:18083"  # Dashboard
     environment:
       #- EMQX_ALLOW_ANONYMOUS: "true"
       - EMQX_LOADED_PLUGINS="emqx_management,emqx_auth_http,emqx_dashboard"
