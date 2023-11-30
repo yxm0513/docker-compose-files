@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    zookeeper (1.5.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  zookeeper
+
+BUNDLED WITH
+   2.4.19
