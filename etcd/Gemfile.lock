@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    etcd (0.3.0)
+      mixlib-log
+    mixlib-log (3.0.9)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  etcd (~> 0.3)
+
+BUNDLED WITH
+   2.4.19
