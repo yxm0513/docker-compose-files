@@ -1,0 +1,31 @@
+version: '3'
+services:
+  node-exporter:
+    image: prom/node-exporter
+    container_name: node-exporter
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - --path.procfs=/host/proc
+      - --path.sysfs=/host/sys
+      - --collector.textfile.directory=/etc/node-exporter/textfile_collector
+    ports:
+      - "9100:9100"
+    restart: always
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+    - 6379:6379
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+    - 8080:8080
+    volumes:
+    - /:/rootfs:ro
+    - /var/run:/var/run:rw
+    - /sys:/sys:ro
+    - /var/lib/docker/:/var/lib/docker:ro
