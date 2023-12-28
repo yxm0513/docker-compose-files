@@ -1,0 +1,14 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sales.js",
+  "scripts": {},
+  "author": "Tim Gross, Joyent",
+  "license": "Mozilla Public License 2.0",
+  "dependencies": {
+    "consulite": "1.x.x",
+    "express": "4.x.x",
+    "mysql": "2.x.x"
+  }
+}

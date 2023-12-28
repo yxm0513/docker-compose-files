@@ -1,0 +1,12 @@
+{
+  "name": "customers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "customers.js",
+  "scripts": {},
+  "author": "Tim Gross, Joyent",
+  "license": "Mozilla Public License 2.0",
+  "dependencies": {
+    "piloted": "1.x.x"
+  }
+}

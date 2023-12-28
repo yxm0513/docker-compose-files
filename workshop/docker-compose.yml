@@ -1,0 +1,56 @@
+# Nginx as a load-balancing tier and reverse proxy
+nginx:
+    image: autopilotpattern/workshop-nginx
+    mem_limit: 128m
+    ports:
+      - 80
+    links:
+      - consul:consul
+    restart: always
+    command: >
+      /bin/containerpilot
+      -config file:///etc/containerpilot/containerpilot.json
+      nginx -g "daemon off;"
+
+# the sales microservice
+sales:
+    image: autopilotpattern/workshop-sales
+    links:
+      - consul
+    environment:
+      - CONSUL_HOST=consul
+      - CONSUL_PORT=8500
+    mem_limit: 128m
+    ports:
+      - 3000
+    # environment:
+    #   - MYSQL_DB=
+    #   - MYSQL_USER=
+    #   - MYSQL_PASSWORD=
+    restart: always
+
+# the customers microservice
+customers:
+    image: autopilotpattern/workshop-customers
+    environment:
+      - CONSUL_HOST=consul
+      - CONSUL_PORT=8500
+    links:
+      - consul
+    mem_limit: 128m
+    ports:
+      - 4000
+    restart: always
+
+# service discovery tier
+consul:
+    image: progrium/consul:latest
+    command: -server -bootstrap -ui-dir /ui
+    restart: always
+    mem_limit: 128m
+    labels:
+      - triton.cns.services=consul
+    ports:
+      - 8500
+    dns:
+      - 127.0.0.1
