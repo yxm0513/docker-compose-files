@@ -10,6 +10,17 @@ groups:
       summary: "Monitor service non-operational"
       description: "Service {{ $labels.instance }} is down."
 
+- name: test
+  rules:
+  - alert: mytest
+    expr: cpu_usage > 20
+    for: 30s
+    labels:
+      severity: critical
+    annotations:
+      summary: "from my exporter"
+      description: "from my export"
+
 - name: host
   rules:
   - alert: high_cpu_load
