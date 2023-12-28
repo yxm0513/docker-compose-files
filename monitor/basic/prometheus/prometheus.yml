@@ -34,6 +34,10 @@ scrape_configs:
     static_configs:
       - targets: ['pushgateway:9091']
 
+  - job_name: 'my_exporter'
+    static_configs:
+      - targets: ['10.151.3.73:8000']
+
 
 alerting:
   alertmanagers:
