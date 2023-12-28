@@ -1,7 +1,7 @@
 {
     "name": "prometheus",
     "type": "prometheus",
-    "url": "http://localhost:9090",
+    "url": "http://10.151.3.73:9090",
     "access": "browser",
     "isDefault": true
 }
